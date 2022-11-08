@@ -1,0 +1,84 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0.2rem;
+    padding: 2rem;
+    border-radius: 4px;
+}
+form input{
+    padding: 0.6rem;
+    margin: 0.4rem;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+form button{
+    background-color: hsl(154, 59%, 51%);
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+form button:hover{
+    background-color: lightgreen;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 13% 5rem;
+}
+body{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74% );
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+main #trial{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 0.3rem;
+    padding: 0.6rem;
+
+}
+
+main .content{
+    max-width: 500px;
+    
+}
+main .content h1{
+    font-size: 3rem;
+}
+
+.formContent{
+    text-align: center;
+    max-width: 550px;
+}
+.err{
+    font-size: 0.7rem;
+    float: left;
+}
+form p{
+    color: gray;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+form p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74% );
+}
+
+
+
+@media screen and (max-width:480px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
